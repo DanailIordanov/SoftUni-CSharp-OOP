@@ -34,6 +34,7 @@ public abstract class Race
             sb.AppendLine($"{place}. {participant.Brand} {participant.Model} {participant.PerformancePoints}PP - ${this.GetPrize(place)}");
             place++;
         }
+
         return sb.ToString();
     }
 
